@@ -45,10 +45,10 @@ export default defineComponent({
             handler: () => { deletePhoto(photo);},
           },
           {
-            text: 'Canclear',
+            text: 'Cancelar',
             icon: close,
             role: 'cancel',
-            handler: () => {}, // Nenhuma ação quando cancelar
+            handler: () => {/* Nenhuma ação quando cancelar*/}, 
           },
         ],
       });
