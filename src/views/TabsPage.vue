@@ -14,6 +14,11 @@
           <ion-label>Mapa</ion-label>
         </ion-tab-button>
 
+        <ion-tab-button tab="tab3" href="/tabs/tab3">
+          <ion-icon :icon="phonePortrait" />
+          <ion-label>Revisão</ion-label>
+        </ion-tab-button>
+
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
